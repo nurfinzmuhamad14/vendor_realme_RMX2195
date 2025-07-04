@@ -333,16 +333,7 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "OppoEngineerCamera.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/app/OppoEngineerCamera/OppoEngineerCamera.apk.ab",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
+
 
 android_app_import {
 	name: "OppoEngineerMode",
@@ -1030,41 +1021,7 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "Settings.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.aa",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
-android_app_import {
-	name: "Settings.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.ab",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Settings.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.ac",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
 android_app_import {
 	name: "SettingsIntelligence",
@@ -1102,29 +1059,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "SystemUI.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/SystemUI/SystemUI.apk.aa",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SystemUI.apk",
-	owner: "realme",
-	apk: "proprietary/system_ext/priv-app/SystemUI/SystemUI.apk.ab",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
 android_app_import {
 	name: "TeleService",
@@ -1996,12 +1930,7 @@ dex_import {
 	device_specific: true,
 }
 
-dex_import {
-	name: "vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.jar"],
-	device_specific: true,
-}
+
 
 dex_import {
 	name: "vendor.oplus.hardware.charger-V1.0-java",
@@ -2010,19 +1939,8 @@ dex_import {
 	device_specific: true,
 }
 
-dex_import {
-	name: "vendor.oplus.hardware.cryptoeng-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.cryptoeng-V1.0-java.jar"],
-	device_specific: true,
-}
 
-dex_import {
-	name: "vendor.oplus.hardware.fido.fidoca-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.fido.fidoca-V1.0-java.jar"],
-	device_specific: true,
-}
+
 
 dex_import {
 	name: "vendor.oplus.hardware.ims-V1.0-java",
@@ -2031,12 +1949,6 @@ dex_import {
 	device_specific: true,
 }
 
-dex_import {
-	name: "vendor.oplus.hardware.oplusSensor-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.oplusSensor-V1.0-java.jar"],
-	device_specific: true,
-}
 
 dex_import {
 	name: "vendor.oplus.hardware.orms-V1.0-java",
@@ -2045,12 +1957,6 @@ dex_import {
 	device_specific: true,
 }
 
-dex_import {
-	name: "vendor.oplus.hardware.orms.ormsHalService-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.jar"],
-	device_specific: true,
-}
 
 dex_import {
 	name: "vendor.oplus.hardware.radio-V1.0-java",
@@ -2059,12 +1965,6 @@ dex_import {
 	device_specific: true,
 }
 
-dex_import {
-	name: "vendor.oplus.hardware.stability.oplus_project-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/odm/framework/vendor.oplus.hardware.stability.oplus_project-V1.0-java.jar"],
-	device_specific: true,
-}
 
 dex_import {
 	name: "vendor.oplus.hardware.thermalmntcfg-V1.0-java",
@@ -2233,14 +2133,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine",
-	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
 
 prebuilt_etc_xml {
 	name: "manifest_engineer",
