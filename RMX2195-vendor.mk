@@ -3879,8 +3879,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
 
 PRODUCT_PACKAGES += \
-    libantradio \
-    libMpeg4SwEncoder \
     CACertService \
     CneApp \
     SoterService \
@@ -3899,46 +3897,6 @@ PRODUCT_PACKAGES += \
     audiosphere \
     tcmclient \
     WfdCommon \
-    QtiTelephonyServicelibrary \
-    com.qti.snapdragon.sdk.display \
-    com.qualcomm.qti.imscmservice-V2.0-java \
-    com.qualcomm.qti.imscmservice-V2.1-java \
-    com.qualcomm.qti.imscmservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.0-java \
-    com.qualcomm.qti.uceservice-V2.1-java \
-    embmslibrary \
-    qcrilhook \
-    vendor.qti.hardware.data.iwlan-V1.0-java \
-    vendor.qti.ims.callinfo-V1.0-java \
-    vendor.qti.ims.rcsconfig-V1.0-java \
-    vendor.qti.ims.rcsconfig-V1.1-java \
-    com.qti.dpmframework \
-    dpmapi \
-    vendor.qti.hardware.alarm-V1.0-java \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-servicePRODUCT_PACKAGES += \
-    libantradio \
-    libMpeg4SwEncoder \
-    CACertService \
-    CneApp \
-    SoterService \
-    TimeService \
-    PowerOffAlarm \
-    QtiTelephonyService \
-    datastatusnotification \
-    embms \
-    imssettings \
-    uceShimService \
-    ims \
-    qcrilmsgtunnel \
-    colorservice \
-    WfdService \
-    dpmserviceapp \
-    audiosphere \
-    tcmclient \
-    WfdCommon \
-    QtiTelephonyServicelibrary \
-    com.qti.snapdragon.sdk.display \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
     com.qualcomm.qti.imscmservice-V2.2-java \
